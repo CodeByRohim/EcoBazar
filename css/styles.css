@@ -1052,7 +1052,7 @@ margin-bottom: 7px;
 /* REVIEW SECTION STARTS HERE */
 #review{
   background: var(--gren-gray-scale-50);
-/* height: 1042px; */
+height: 1042px;
 position: relative;
 margin-bottom: 100px;
 }
@@ -1073,7 +1073,7 @@ height: 240px;
 background: var(--gray-scale-white);
 margin: 43px 12px;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
-margin-bottom: 599px;
+/* margin-bottom: 599px; */
 }
 
 #review .reviewBox:hover {
@@ -1133,11 +1133,9 @@ color: var(--gren-gray-scale-500);
 /* REVIEW SECTION ENDS HERE */
 /* VIDEO SECTION STARTS HERE */
 #videos{
-      position: absolute; /* Absolute positioning */
-      top: 672px; /* Distance from top of parent */
-      /* left: 50%; Center horizontally */
-      /* transform: translateX(-50%); */
-      z-index: 10; /* Higher layer */
+      position: absolute; 
+      top: 672px; 
+      z-index: 10; 
       border-radius: 20px;
 }
 #videos .video-container {
