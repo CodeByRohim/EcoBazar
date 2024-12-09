@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBazar</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <!-- HEADER STARTS HERE -->
+    <header>
+        <!-- HEADER TOP STARTS -->
+        <section id="headerTop">
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 r">
+                        <p class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                            <span class="iconify-icon "><iconify-icon icon="system-uicons:location" width="17"
+                                    height="20"></iconify-icon></span>
+                            Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </p>
+                    </div>
+
+
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                        <ul>
+                            <li class="d-inline-block">
+                                <form action="">
+                                    <select>
+                                        <option value="">Eng</option>
+                                        <option value="">Bng</option>
+                                    </select>
+                                    <select>
+                                        <option value="">USD</option>
+                                        <option value="">BDT</option>
+                                    </select>
+                                </form>
+                            </li>
+                            <li class="d-inline-block">
+                                <a href="#">Sign In / Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HEADER TOP ENDS -->
+        <!-- HEADER MIDDLE STARTS -->
+        <section id="headerMiddle">
+            <div class="container d-none d-lg-block">
+                <div class="row align-items-center">
+                    <div class="logo col-lg-3"><img class="img-fluid" src="./images/Logo.svg" alt=""></div>
+
+                    <div class="search col-lg-6 ">
+                        <form class="" action="">
+                            <div class="formGroup d-sm-none d-lg-block">
+                                <span class="iconify-icon"><iconify-icon icon="weui:search-outlined" width="20"
+                                        height="21"></iconify-icon></span> <input type="search" placeholder="Search">
+                            </div>
+                            <button>Search</button>
+                        </form>
+                    </div>
+
+                    <div class="quickLinks col-lg-3 d-sm-none d-lg-block">
+                        <ul class="text-center">
+
+                            <li class="d-inline-block"><a href="#">
+                                    <span class="iconify-icon">
+                                        <!-- <iconify-icon icon="clarity:heart-line" width="30" height="26"></iconify-icon> -->
+                                        <img width="30" height="26" src="./images/Heart(1).svg" alt="">
+                                    </span>
+                                    </span></a></li>
+                            <li class="d-inline-block">
+                                <a href="#">
+                                    <div class="d-flex">
+                                        <div class="cartIcon">
+                                            <span class="iconify-icon">
+                                                <!-- <iconify-icon icon="ph:bag-thin" width="34" height="34"><iconify-icon> -->
+                                                <img width="34" height="26" src="./images/Rectangle.svg" alt="">
+                                                <span>
+                                        </div>
+                                        <div class="text">
+                                            <span class="d-flex">Shopping cart:</span>
+                                            <h4 class="text-start">$57.00</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SM MIDDLE NAVBAR START HERE -->
+
+            <div class="container smMiddle d-lg-none">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="menuSm">
+                        <a href="#smSidebar" data-bs-toggle="offcanvas" role="button" aria-controls="smSidebar">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="logo"><img class="img-fluid" src="./images/Logo.svg" alt=""></div>
+
+
+                    <div class="smSearchBtn">
+                        <button class="searchIcon"><span><i class="bi bi-search"></i></span></button>
+                        <button class="closeIcon" style="display: none;"><span><i
+                                    class="bi bi-x-lg"></i></span></button>
+                    </div>
+                </div>
+
+
+                <!-- SM MENU OFFCANVAS START HERE -->
+                <div class="offcanvas smSidebar offcanvas-start" tabindex="-1" id="smSidebar"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header justify-content-between">
+                        <span class="offcanvas-title" id="offcanvasExampleLabel"><img class="img-fluid"
+                                src="./images/Logo.svg" alt=""></span>
+                        <button type="button" class=" closeBtn justify-content-end" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="text-center" aria-labelledby="">
+                            <li class=""><a class="#" href="index.html">Home</a></li>
+
+                            <li class="">
+                                <div class="dropdown">
+                                    <button class="dropdownBtn" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Shop
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Fish</a></li>
+                                        <li><a class="dropdown-item" href="#">Meat</a></li>
+                                        <li><a class="dropdown-item" href="#">Fruit</a></li>
+                                        <li><a class="dropdown-item" href="#">Vegetable</a></li>
+                                        <li><a class="dropdown-item" href="#">Organic Vegetable</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class=""><a class="" href="#">Pages</a></li>
+                            <li class=""><a class="" href="#">Blog</a></li>
+                            <li class=""><a class="" href="#">About Us</a></li>
+                            <li class=""><a class="" href="./contact.html">Contact Us</a></li>
+
+                            <div class="d-flex align-items-center justify-content-evenly mt-3">
+                                <!-- <li class="nav-item" class="d-inline-bloc"><a href="#">
+                                        <span class="iconify-icon">
+                                            <img width="30" height="32" src="./images/Heart(1).svg" alt="">
+                                        </span>
+                                        </span></a></li>
+                                <li class="">
+                                    <a href="#">
+                                        <span class="iconify-icon">
+                                            <img width="34" height="26" src="./images/Rectangle.svg" alt="">
+                                            <span>
+                                    </a>
+                                </li> -->
+                                <li><a href="tel:+219-555-0114"><img src="./images/Group.svg" alt="">(219) 555-0114</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <!-- SM MENU OFFCANVAS ENDS HERE -->
+
+                <!--sm container-->
+                <!-- SM MIDDLE NAVBAR ENDS HERE -->
+                <!-- search in sm starts-->
+                <section id="">
+                    <div class="smMsearch d-none">
+                        <div class="search">
+                            <form class="" action="">
+                                <div class="formGroup d-flex">
+                                    <span class="iconify-icon text-end"><iconify-icon icon="weui:search-outlined" width="20"
+                                            height="21"></iconify-icon></span>
+                                    <input type="search" placeholder="Search">
+                                    <button>Search</button>
+                                </div>
+                            </form>
+                            <div class="searchResult">
+                                <p class="result">total results 250</p>
+                                <div class="row">
+                                    <!-- Product Cards -->
+                                    <div class="col-6">
+                                        <div class="product-card">
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="./images/product img/Image.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-text">
+                                                <p>Mango</p>
+                                                <h4>14.99 <del>20.99</del></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Repeat as necessary -->
+                                    <div class="col-6">
+                                        <div class="product-card">
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="./images/chinease cabbage.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-text">
+                                                <p>Chinese cabbage</p>
+                                                <h4>14.99 <del>20.99</del></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-6">
+                                        <div class="product-card">
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="./images/product img/Image.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-text">
+                                                <p>Mango</p>
+                                                <h4>14.99 <del>20.99</del></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-6">
+                                        <div class="product-card">
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="./images/product img/Image.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-text">
+                                                <p>Mango</p>
+                                                <h4>14.99 <del>20.99</del></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- search in sm ends  -->
+        </section>
+        <!-- HEADER MIDDLE ENDS -->
+        <!-- HEADER BOTTOM STARTS -->
+        <section id="headerBottom">
+            <div class="container d-lg-block">
+                <div class="row">
+
+                    <div class="col-lg-2 d-none d-lg-block">
+
+                        <form action="/submit-category" method="POST" class="category-form">
+
+                            <div class="d-flex align-items-center">
+                                <span class="iconify-icon">
+                                    <img src="./images/menu 1.svg" alt="Menu Icon" width="24" height="24">
+                                </span>
+                                <select id="categorySelect" name="category" class="form-selects">
+                                     <option value="" disabled selected>All Categories</option>
+                                    <option class="">Baby Food</option>
+                                    <option class="">Home & Kitchen</option>
+                                    <option class="">Fashion</option>
+                                    <option class="">Food</option>                                    
+                                </select>
+                               
+                                <span class="down"><i class="bi bi-chevron-down"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- SM ALL CATEGORIES START -->
+                    <ul
+                        class="navbar-nav d-flex align-items-center flex-row gap-3 overflow-scroll categories d-lg-none categorie">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Meat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vegetable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Snacks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fish</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Breakfast</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Organic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mixture</a>
+                        </li>
+
+                    </ul>
+                    <!-- SM ALL CATEGORIES END -->
+
+                    <div class="col-lg-8 d-none d-lg-block">
+                        <div class="container">
+
+                            <div class="row">
+                                <nav class=" navbar-expand-lg ">
+                                    <ul class="d-flex align-items-center justify-content-lg-start">
+                                        <li class="nav-item"><a href="#" class="nav-link">Home<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a></li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a>
+                                                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                                            <li><a class="dropdown-item" href="#">Honey</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#">Poultry & Meat</a></li>
+                                                            <li><a class="dropdown-item" href="#">Nuts & Dates</a></li>
+                                                            <li><a class="dropdown-item" href="#">Spices</a></li>
+                                                            <li><a class="dropdown-item" href="#">Super Food</a></li>
+                                                            <li><a class="dropdown-item" href="#">Tea & Coffee</a></li>
+                                                        </ul>
+                                                    </li>
+
+
+                                        <li class="nav-item"><a href="#" class="nav-link">Pages<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Blog<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">About Us<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a></li>
+                                        <li class="nav-item"><a href="./contac.html" class="nav-link">Contact Us<span class="down"><i
+                                                        class="bi bi-chevron-down"></i></span></a></li>
+                                    </ul>
+                            </div>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 d-none d-lg-block">
+                        <div class="container">
+                            <div class="row">
+                                <a href="tel:+219-555-0114">
+                                    <p class="contact"><span><img class="phone" src="./images/Group.svg" alt=""></span>(219)
+                                        555-0114</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HEADER BOTTOM ENDS -->
+    </header>
+    <!-- HEADER ENDS HERE -->
+
+    <!-- BANNER STARTS HERE -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="banner-img col-lg-7">
+                    <div class="group ">
+                        <div class="img-group">
+                            <img class="main-img img-fluid" src="./images/Image.svg" alt="">
+
+                            <img class="vector1 img-fluid d-none d-lg-block" src="./images/Vector(1).svg" alt="">
+                            <img class="group2 img-fluid d-none d-lg-block" src="./images/Group 2.svg" alt="">
+
+                            <img class="group4 img-fluid d-none d-lg-block" src="./images/Group 4.svg" alt="">
+
+                        </div>
+                        <div class="circle">
+                            <p>70% <span>OFF</span></p>
+                        </div>
+                    </div>
+                    <div class="group3 img-fluid"></div>
+
+                    <div class="group5 img-fluid"></div>
+                </div>
+
+                <div class="banner-text col-lg-5">
+                    <span class="shopery">Welcome to shopery</span>
+                    <h1>Fresh & Healthy
+                        <span class="d-block text-start">Organic Food</span>
+                    </h1>
+                    <p>Free shipping on all your order. we deliver, you enjoy</p>
+                    <button class="customBtn shopBtn d-flex gap-2">Shop Now <span class="rightArrow"><i
+                                class="bi bi-arrow-right-short"></i></span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER ENDS HERE -->
+
+    <!-- <div class="div"> -->
+    <section id="first-section d-none d-lg-block"></section>
+    <section id="hidden-section d-non d-lg-block">
+        <div class="hidden-box">
+            <section id="four-boxes-section"> <!-- FOUR BOXES STARTS HERE -->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="box col-lg-3 active">
+                            <i><img class="rounded img-fluid" src="./images/Icon.svg" alt=""></i>
+                            <h3>Free Shipping</h3>
+                            <p>Free shipping with discount</p>
+                        </div>
+                        <div class="box col-lg-3">
+                            <i><img class="img-fluid" src="./images/Icon(1).svg" alt=""></i>
+                            <h3>Great Support 24/7</h3>
+                            <p>Instant access to Contact</p>
+                        </div>
+                        <div class="box col-lg-3">
+                            <i><img class="img-fluid" src="./images/Icon(2).svg" alt=""></i>
+                            <h3>100% Sucure Payment</h3>
+                            <p>We ensure your money is save</p>
+                        </div>
+                        <div class="box col-lg-3 radius">
+                            <i><img class="img-fluid" src="./images/Icon(3).svg" alt=""></i>
+                            <h3>Money-Back Guarantee</h3>
+                            <p>30 days money-back guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- FOUR BOXES ENDS HERE -->
+        </div>
+    </section>
+
+    <!-- THIRD SECTION STARTS HERE -->
+    <section id="third-section">
+        <div class="container">
+            <div class="group-text">
+                <h3 class="text-center">Introducing Our Products</h3>
+                <nav class="d-none d-lg-block">
+                    <ul class="d-flex align-items-center justify-content-center">
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Vegetable</a></li>
+                        <li><a href="#">Fruit</a></li>
+                        <li><a href="#">Meat & Fish</a></li>
+                        <li><a href="#">View All</a></li>
+                    </ul>
+                </nav>
+                <!-- SM ITEM OF PRODUCT STARTS HERE -->
+                <ul class="navbar-nav d-flex align-items-center flex-row gap-3 overflow-scroll categorie d-lg-none">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vegetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fruit</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-center d-inline-flex" href="#">Meat & Fish</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center d-flex" href="#">View All</a>
+                    </li>
+                </ul>
+                <!-- SM ITEM OF PRODUCT ENDS HERE -->
+            </div>
+
+            <div class="row">
+
+                <!-- product 1 start -->
+                <div class="productCard col-lg-3">
+                    <!-- <span class="product-img"> -->
+                    <img class="img-fluid" src="./images/product img/Product Image.svg" alt="">
+                    <!-- </span> -->
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Green Apple</h3>
+                            <h2>$14.99 <span>$20.99</span></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- products 1 end -->
+
+                <!-- products 2 start -->
+                <div class="productCard col-lg-3">
+                    <!-- <span class="product-img"> -->
+                    <img class="img-fluid" src="./images/product img/Image.svg" alt="">
+                    <!-- </span> -->
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Surjapur Mango</h3>
+                            <h2>$14.99 </h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- produts 2 end -->
+
+
+                <!-- products 3 start -->
+                <div class="productCard col-lg-3">
+                    <!-- <span class="product-img"> -->
+                    <img class="img-fluid" src="./images/product img/Product Image(1).svg" alt="">
+                    <!-- </span> -->
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Red Tomatos</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span class=""><img src="./images/product img/Rectangle.svg"
+                                    alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- products 3 end -->
+
+
+                <!-- products 4 start -->
+                <div class="productCard col-lg-3">
+
+                    <img class="img-fluid" src="./images/product img/Product Image(2).svg" alt="">
+
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Fresh Cauliflower</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- products 4 end -->
+
+                <!-- product 5 start -->
+                <div class="productCard col-lg-3">
+
+                    <img class="img-fluid" src="./images/product img/Product Image(3).svg" alt="">
+
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Green Lettuce</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+
+                <!-- product 6 start -->
+                <div class="productCard col-lg-3">
+
+                    <img class="img-fluid" src="./images/product img/Image(1).svg" alt="">
+
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Eggplant</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- product 6 end -->
+
+                <!-- product 7 start -->
+                <div class="productCard col-lg-3">
+
+                    <img class="img-fluid" src="./images/product img/Image(2).svg" alt="">
+
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Green Chilli</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- product 7 end -->
+
+                <!-- product 8 start -->
+                <div class="productCard col-lg-3">
+
+                    <img class="img-fluid" src="./images/product img/Image(3).svg" alt="">
+
+                    <div class="product-text d-flex align-items-center justify-content-between">
+                        <div class="cnt">
+                            <h3>Eggplant</h3>
+                            <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                            <span class="groupStar">
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                            </span>
+                        </div>
+                        <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                    </div>
+                    <div class="overlay">
+                        <div class="sale">
+                            <div class=""><span>
+                                    <p class="text-start">Sale 50%</p>
+                                </span></div>
+                            <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                        alt=""></span></div>
+                        </div>
+                        <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                    src="./images/product img/Eye 1.svg" alt=""></span></div>
+                        <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+
+                    </div>
+                </div>
+                <!-- product 8 end -->
+            </div>
+        </div>
+    </section>
+    <!-- THIRD SECTION ENDS HERE -->
+
+
+    <!-- DRINK  SECTION STARTS HERE -->
+    <section id="drink">
+        <div class="container d-none d-lg-block">
+            <div class="d-flex align-items-center justify-content-center gap-4 cnt">
+
+                <div class="col-lg-4 milk img-fluid">
+                    <div class="milk-breakfast">
+                        <h3>100% Fresh
+                            <span class="d-block">Cow Milk</span>
+                        </h3>
+                        <p>Starting at <span>$14.99</span></p>
+                        <button class="customBtn drinkBtn">Shop Now <span class="rightArrow"><i
+                                    class="bi bi-arrow-right-short"></i></span></button>
+                    </div>
+                </div>
+                <div class="col-lg-4 water img-fluid">
+                    <div class="wrapper">
+                        <p class="">Drink Sale</p>
+                        <h3 class="">Water &<span class="d-block">Soft Drink</span></h3>
+                        <button class="customBtn drinkBtn  justify-content-lg-end">Shop Now <span class="rightArrow"><i
+                                    class="bi bi-arrow-right-short"></i></span></button>
+                    </div>
+                </div>
+                <div class="col-lg-4 breakfast img-fluid">
+                    <div class="milk-breakfast">
+                        <p>100% Organic</p>
+                        <h3>100% Fresh
+                            <span class="d-block">Cow Milk</span>
+                        </h3>
+                        <button class="customBtn drinkBtn">Shop Now <span class="rightArrow"><i
+                                    class="bi bi-arrow-right-short"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SM DRINK SECTION STARTS HERE -->
+     <div class="d-lg-none">
+         <section id="drink">
+            <div class="container d-lg-none">
+                <div id="carouselExampleIndicators " class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center gap-4 cnt">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-lg-4 milk img-fluid ">
+                                    <div class="milk-breakfast ">
+                                        <h3>100% Fresh
+                                            <span class="d-block">Cow Milk</span>
+                                        </h3>
+                                        <p>Starting at <span>$14.99</span></p>
+                                        <button class="customBtn drinkBtn">Shop Now <span class="rightArrow"><i
+                                              class="bi bi-arrow-right-short"></i></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 water img-fluid">
+                                    <div class="wrapper">
+                                        <p class="">Drink Sale</p>
+                                        <h3 class="">Water &<span class="d-block">Soft Drink</span></h3>
+                                        <button class="customBtn drinkBtn  justify-content-lg-end">Shop Now <span
+                                                class="rightArrow"><i class="bi bi-arrow-right-short"></i></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 breakfast img-fluid">
+                                    <div class="milk-breakfast">
+                                        <p>100% Organic</p>
+                                        <h3>100% Fresh
+                                            <span class="d-block">Cow Milk</span>
+                                        </h3>
+                                        <button class="customBtn drinkBtn">Shop Now <span class="rightArrow"><i
+                                                    class="bi bi-arrow-right-short"></i></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-ico" aria-hidden="true"><i class="fa-solid fa-arrow-left"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-ico" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+             </section>
+     </div>
+    <!-- SM DRINK SECTION ENDS HERE -->
+    <!-- DRINK SECTION ENDS HERE -->
+     <!-- SPECIAL DEALS START HERE -->
+     <section id="specialDeals">
+        <div class="d-flex align-items-center justify-content-center">
+
+            <div class="col-lg-4 col-md-6 productImg text-center">
+                <img class="img-fluid" src="./images/Image(4).svg" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-12 middleSpecial text-center">
+                <p>Best Deals</p>
+                <h2>Our Special Products Deal of the Month</h2>
+                <div class="countDown">
+                    <div class="countDown-cnt">
+                        <h3 id="days">4</h3>
+                        <p>DAYS</p>
+                    </div>
+                    <span>:</span>
+                    <div class="countDown-cnt">
+                        <h3 id="hours">10</h3>
+                        <p>HOURS</p>
+                    </div>
+                    <span>:</span>
+                    <div class="countDown-cnt">
+                        <h3 id="minutes">14</h3>
+                        <p>MINS</p>
+                    </div>
+                    <span>:</span>
+                    <div class="countDown-cnt">
+                        <h3 id="seconds">40</h3>
+                        <p>SECS</p>
+                    </div>
+                </div>
+                
+                    <button class="customBtn shopBtn d-lg-flex gap-2">Shop Now <span class="rightArrow"><i
+                        class="bi bi-arrow-right-short"></i></span></button>
+                
+            </div>
+
+            <div class=" col-lg-4 col-md-6 productImg2 text-center">
+                <img class="img-fluid" src="./images/Image(5).svg" alt="">
+            </div>
+        </div>
+     </section>
+     <!-- SPECIAL DEALS END HERE -->
+      <!-- FEUTURED PRODUCT START HERE -->
+     <section id="feuturedProduct">
+        <section id="third-section">
+            <div class="container">
+                <div class="group-text">
+                    <h3 class="text-center">Featured Products</h3>
+                </div>
+    
+                <div class="row">
+    
+                    <!-- product 1 start -->
+                    <div class="productCard col-lg-3 col-md-4 col-sm-6">
+                        <!-- <span class="product-img"> -->
+                        <img class="img-fluid" src="./images/green.svg" alt="">
+                        <!-- </span> -->
+                        <div class="product-text d-flex align-items-center justify-content-between">
+                            <div class="cnt">
+                                <h3>Green Apple</h3>
+                                <h2>$14.99 <span>$20.99</span></h2>
+                                <span class="groupStar">
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                                </span>
+                            </div>
+                            <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                        </div>
+                        <div class="overlay">
+                            <div class="sale">
+                                <div class=""><span>
+                                        <p class="text-start">Sale 50%</p>
+                                    </span></div>
+                                <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                            alt=""></span></div>
+                            </div>
+                            <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                        src="./images/product img/Eye 1.svg" alt=""></span></div>
+                            <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+    
+                        </div>
+                    </div>
+                    <!-- products 1 end -->
+    
+                    <!-- products 2 start -->
+                    <div class="productCard col-lg-3 col-md-4 col-sm-6">
+                        <!-- <span class="product-img"> -->
+                        <img class="img-fluid" src="./images/malta.svg" alt="">
+                        <!-- </span> -->
+                        <div class="product-text d-flex align-items-center justify-content-between">
+                            <div class="cnt">
+                                <h3>Fresh Indian Malta</h3>
+                                <h2>$20.00</h2>
+                                <span class="groupStar">
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                                </span>
+                            </div>
+                            <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                        </div>
+                        <div class="overlay">
+                            <div class="sale">
+                                <div class=""><span>
+                                        <p class="text-start">Sale 50%</p>
+                                    </span></div>
+                                <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                            alt=""></span></div>
+                            </div>
+                            <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                        src="./images/product img/Eye 1.svg" alt=""></span></div>
+                            <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+    
+                        </div>
+                    </div>
+                    <!-- produts 2 end -->
+    
+    
+                    <!-- products 3 start -->
+                    <div class="productCard col-lg-3 col-md-4 col-sm-6">
+                        <!-- <span class="product-img"> -->
+                        <img class="img-fluid" src="./images/chinease cabbage.svg" alt="">
+                        <!-- </span> -->
+                        <div class="product-text d-flex align-items-center justify-content-between">
+                            <div class="cnt">
+                                <h3>Chinese cabbage</h3>
+                                <h2>$12.00 <!--<span>$20.99</span>--></h2>
+                                <span class="groupStar">
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                                </span>
+                            </div>
+                            <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                        </div>
+                        <div class="overlay">
+                            <div class="sale">
+                                <div class=""><span>
+                                        <p class="text-start">Sale 50%</p>
+                                    </span></div>
+                                <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                            alt=""></span></div>
+                            </div>
+                            <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                        src="./images/product img/Eye 1.svg" alt=""></span></div>
+                            <div class="bag newBag"><span class=""><img src="./images/product img/Rectangle.svg"
+                                        alt=""></span></div>
+    
+                        </div>
+                    </div>
+                    <!-- products 3 end -->
+    
+    
+                    <!-- products 4 start -->
+    
+                    <div class="productCard col-lg-3 col-md-4 col-sm-6">
+    
+                        <img class="img-fluid" src="./images/lettuce.svg" alt="">
+    
+                        <div class="product-text d-flex align-items-center justify-content-between">
+                            <div class="cnt">
+                                <h3>Green Lettuce</h3>
+                                <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                                <span class="groupStar">
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                                </span>
+                            </div>
+                            <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                        </div>
+                        <div class="overlay">
+                            <div class="sale">
+                                <div class=""><span>
+                                        <p class="text-start">Sale 50%</p>
+                                    </span></div>
+                                <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                            alt=""></span></div>
+                            </div>
+                            <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                        src="./images/product img/Eye 1.svg" alt=""></span></div>
+                            <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+    
+                        </div>
+                    </div>
+                     <!-- products 4 end -->
+                    <!-- product 8 start -->
+                    <div class="productCard col-lg-3 col-md-4 col-sm-6">
+    
+                        <img class="img-fluid" src="./images/eggplant.svg" alt="">
+    
+                        <div class="product-text d-flex align-items-center justify-content-between">
+                            <div class="cnt">
+                                <h3>Eggplant</h3>
+                                <h2>$14.99 <!--<span>$20.99</span>--></h2>
+                                <span class="groupStar">
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd orange"></i>
+                                    <i class="fa-sharp-duotone fa-solid fa-star fa-star-chekd"></i>
+                                </span>
+                            </div>
+                            <div class="bag"><span><img src="./images/Rectangle.svg" alt=""></span></div>
+                        </div>
+                        <div class="overlay">
+                            <div class="sale">
+                                <div class=""><span>
+                                        <p class="text-start">Sale 50%</p>
+                                    </span></div>
+                                <div class="heart"><span class="heart-icon"><img width="24px" src="./images/Heart(1).svg"
+                                            alt=""></span></div>
+                            </div>
+                            <div class="eye d-inline-block"><span class="eye-icon"><img width="24px"
+                                        src="./images/product img/Eye 1.svg" alt=""></span></div>
+                            <div class="bag newBag"><span><img src="./images/product img/Rectangle.svg" alt=""></span></div>
+    
+                        </div>
+                    </div>
+                    <!-- product 5 end -->                 
+                    
+                </div>
+            </div>
+        </section>
+     </section>
+     <!-- FEUTURED PRODUCT END HERE -->
+      <!-- REVIEW SECTION START -->
+       <section id="review">
+        <div class="container ">
+            <h2>What our Clients Says</h2>
+
+            <div class="d-flex justify-content-center overflow">
+
+                    
+                <div class="col-12 col-md-6 col-lg-4 reviewBox ">
+                    <div class="wrapper ">
+                        <span><img class="img-fluid" src="./images/Vector.svg" alt=""></span>
+                        <p>“Nam sed odio diam. Mauris sagittis sapien sed convallis cursus. Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”</p>
+                        <span><i class="fa-solid fa-caret-up"></i></span>
+                    </div>
+                    <div class="customer">
+                        <img class="img-fluid" src="./images/]enny.svg" alt="">
+                        <h4>Jenny Wilson</h4>
+                        <h5>Customer</h5>
+                    </div>
+                </div>
+                    <div class="col-12 col-md-6 col-lg-4 reviewBox ">
+                        <div class="wrapper ">
+                            <span><img class="img-fluid" src="./images/Vector.svg" alt=""></span>
+                            <p>“Proin sed neque nec tellus malesuada ultrices eget a justo. Nullam a nibh faucibus, semper risus ac, ultricies est. Maecenas eget purus in enim imperdiet dapibus in ac mi. Fusce faucibus lacus felis”</p>
+                            <span><i class="fa-solid fa-caret-up"></i></span>
+                        </div>
+                        <div class="customer">
+                            <img class="img-fluid" src="./images/howkins.svg" alt="">
+                            <h4>Guy Hawkins</h4>
+                            <h5>Customer</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 reviewBox">
+                        <div class="wrapper">
+                            <span><img class="img-fluid" src="./images/Vector.svg" alt=""></span>
+                            <p>“Nam sed odio diam. Mauris sagittis sapien sed convallis cursus. Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”</p>
+                            <span><i class="fa-solid fa-caret-up"></i></span>
+                        </div>
+                        <div class="customer">
+                            <img class="img-fluid" src="./images/morphy.svg" alt="">
+                            <h4>Kathryn Murphy</h4>
+                            <h5>Customer</h5>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="container d-flex justify-content-center">
+        <section id="videos"> <!--video section-->
+            <div class="video-container">
+                <video controls poster="./images/organicPhoto.svg">
+                    <source src="./video/istockphoto-2123071364-640_adpp_is.mp4" type="video/mp4">
+                  </video>
+                  <div class="thumbnail-text">
+                    <h6>Video</h6>
+                    <p>We’re the Best Organic Farm in the World</p>
+                    <span class="d-none d-lg-block"><i class="fa-solid fa-circle-play img-fluid"></i></span>
+                </div>
+                </div>
+        </section>
+    </div>
+       </section>
+       <!-- REVIEW SECTION END -->
+        <!--LATEST NEWS SECTION START -->
+       <section id="latestNews">
+        <h2>Latest News</h2>
+        <div class="container">
+            <div class="customRow">
+            <div class="col-lg-4 latestNewsBox">
+                <div class="childBox">
+                    <img class="img-fluid" src="./images/orange.svg" alt="">
+                        <span class="text">
+                            <h3>23</h3>
+                            <p>JAN</p>
+                        </span> 
+                </div>
+                <h3 class="curabitur">Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+                <p class="nulla">Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+                <span><a href="#">Read More <span class="rightArrow"><i
+                    class="bi bi-arrow-right-short"></i></span></a></span>
+            </div>
+
+            <div class="col-lg-4 latestNewsBox">
+                <div class="childBox">
+                    <img class="img-fluid" src="./images/mangojuice.svg" alt="">
+                        <span class="text">
+                            <h3>23</h3>
+                            <p>JAN</p>
+                        </span> 
+                </div>
+                <h3 class="curabitur">Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+                <p class="nulla">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                <span><a href="#">Read More <span class="rightArrow"><i
+                    class="bi bi-arrow-right-short"></i></span></a></span>
+            </div>
+
+            <div class="col-lg-4 latestNewsBox">
+                <div class="childBox">
+                    <img class="img-fluid" src="./images/pineapple.svg" alt="">
+                        <span class="text">
+                            <h3>23</h3>
+                            <p>JAN</p>
+                        </span> 
+                </div>
+                <h3 class="curabitur">Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+                <p class="nulla">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <span><a href="#">Read More <span class="rightArrow"><i
+                    class="bi bi-arrow-right-short"></i></span></a></span>
+            </div>
+        </div>
+        </div>
+        <!-- NEWSLETTER SECTION START -->
+         <section id="newsletter">
+           <hr class="span">
+            <div class="container">
+                
+                <div class="cntWrapper">
+                <div class="row align-items-center">
+                    
+                        
+                        <div class="col-lg-3 logo">
+                            <img class="img-fluid" src="./images/Logo.svg" alt="">
+                        </div>
+                        
+                        <div class="col-lg-4 text">
+                            <h2>Subcribe our Newsletter</h2>
+                            <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+                        </div>
+                        
+                        <div class="col-lg-5 inputField">
+                            <form action="formInput">
+                                <input type="email" placeholder="Your email address">
+                                <button type="submit">Subscribe</button>
+                            </form>                       
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- NEWSLETTER SECTION END -->
+       </section>
+        <!-- LATEST NEWS SECTION END -->
+         <!-- FOOTER SECTION START -->
+          <section id="footer">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="wrapper">
+                            <div class="col-3">
+                                <h3>About Shopery</h3>
+                                <p>
+                                    Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
+                                </p>
+                                <h5>(219) 555-0114<span>or</span>Proxy@gmail.com</h5>
+                            </div>
+                            <div class="col-2 mx-4">
+                                <h3>My Account</h3>
+                               <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="#">Shoping Cart</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Settings</a></li>
+                               </ul>
+                            </div>
+                            <div class="col-2">
+                                <h3>Helps</h3>
+                                <ul>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Faqs</a></li>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <!-- <li><a href="#"></a></li>        -->
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <h3>Proxy</h3>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Products Details</a></li>
+                                    <li><a href="#">Track Order   </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 mx-">
+                                <h3 class="">Instagram</h3>
+                                <ul class="d-flex flex-wrap">
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/ins4.svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/ins5.svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/ins6.svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/Image(7).svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/Image(8).svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/Image(9).svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/Image(10).svg" alt=""></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="./drink-img/Image(11).svg" alt=""></a></li>
+                                </ul>
+                          </div>
+                        </div>
+                    
+                         <hr class="footerHr">
+                    
+                        <div class="social-payment">
+                            <div class="col-4 social">
+                                <a href="#"><img class="img-fluid" src="./drink-img/facebook 1.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/twitter 1.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/pinterest 1.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/instagram 1.svg" alt=""></a>
+                            </div>
+                            <div class="col-4">
+                                <p>Shopery eCommerce © 2021. All Rights Reserved</p>
+                            </div>
+                            <div class="col-4 payment text-end">
+                                <a href="#"><img class="img-fluid" src="./drink-img/Method=ApplePay.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/Method=Visa.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/Method=Discover.svg" alt=""></a>
+                                <a href="#"><img class="img-fluid" src="./drink-img/Method=Mastercard.svg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </footer>
+          </section>
+          <!-- FOOTER SECTION END -->
+           <!-- SM BOTTOM NAVBAR START HERE -->
+            <section id="smBottomNav d-block d-lg-none">
+                <nav class="d-lg-none">
+                    <ul class="d-flex align-items-center justify-content-evenly ">
+                        <li class="nav-item" class="d-inline-bloc">
+                            <a class="nav-link acti">
+                        <span class="iconify-icon">
+                            <img width="30" height="32" src="./images/ion--home-outline.svg" alt="">
+                        </span>
+                        </span></a>
+                    </li>
+                        <li class="nav-item" class="d-inline-bloc">
+                            <a class="nav-link acti">
+                        <span class="iconify-icon">
+                            <img width="30" height="32" src="./images/Heart(1).svg" alt="">
+                        </span>
+                        </span></a>
+                    </li>
+                <li class="">
+                    <a href="#">
+                        <span class="iconify-icon">
+                            <img width="34" height="26" src="./images/Rectangle.svg" alt="">
+                            <span>
+                    </a>
+                </li>
+                <li class="nav-item" class="d-inline-bloc">
+                    <a class="nav-link acti">
+                <span class="iconify-icon">
+                    <img width="30" height="32" src="./images/ic--outline-account-circle.svg" alt="">
+                </span>
+                </span></a>
+            </li>
+                    </ul>
+                </nav>
+            </section>
+            <!-- SM BOTTOM NAVBAR END HERE -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

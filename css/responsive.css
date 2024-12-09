@@ -1,0 +1,487 @@
+
+#headerMiddle .smMiddle .smSidebar {
+  max-width: 70%;
+}
+
+#headerMiddle .smMiddle .menuSm i {
+  color: var(--branding-success-dark);
+}
+
+.smMiddle .offcanvas-header .closeBtn {
+  border: none;
+  color: red;
+  background-color: transparent;
+}
+
+.smSidebar .offcanvas-header img {
+  max-width: 70%;
+  height: auto;
+}
+
+.smSidebar .offcanvas-body .dropdownBtn,
+.smSidebar .offcanvas-body ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+  cursor: pointer;
+}
+
+.smSidebar .offcanvas-body .dropdown-menu {
+  position: relative !important;
+  inset: 5px auto auto 0px !important;
+  margin: 0px;
+  transform: none !important;
+}
+
+.smSidebar .offcanvas-body .dropdownBtn {
+  border: none;
+  background-color: transparent;
+}
+
+
+
+/* .searchSm{
+  position: fixed;
+ background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ .searchSm .search .formGroup{
+  display: flex;
+  max-width: 80%;
+ margin: auto;
+margin-top: 30px;
+
+}
+.searchSm .search .formGroup button{
+  height: 100%;
+}
+.searchSm .searchResult .product-card img{
+  width: 425px;
+  height: 425px;
+} */
+
+
+
+
+
+
+
+/* FOR SM DEVICE */
+/* @media (max-width: 576px) {
+ 
+ 
+} */
+@media (max-width: 576px) {
+  section{
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 375px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  #specialDeals .d-flex {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .productImg, .productImg2 {
+    margin-bottom: 20px; /* Add spacing between items */
+  }
+
+  .middleSpecial {
+    margin-bottom: 20px; /* Add spacing for the middle content */
+  }
+  .customBtn {
+    border: none;
+    border-radius: 43px;
+    padding: 10px 12px;
+    width: 113px;
+    height: 35px;
+    background: var(--branding-success);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 105%;
+    color: var(--gray-scale-white);
+}
+ 
+  #headerTop {
+    padding: 6px 0;
+}
+  #headerMiddle {
+    padding: 4px 0;
+  }
+
+  #banner .circle {
+    width: 50px;
+    height: 50px;
+    top: 32px;
+    left: 260px;
+  }
+
+  #banner .circle p {
+    font-size: 16px;
+  }
+
+  #banner .banner-img .main-img {
+    position: static;
+    margin-top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 0;
+  }
+
+  #banner .banner-img .group2,
+  #banner .banner-img .group3,
+  #banner .banner-img .group4,
+  #banner .banner-img .group5 {
+    display: none;
+  }
+
+  #banner .banner-text h1 {
+    font-size: 35px;
+  }
+
+  #banner .banner-text {
+    margin: auto;
+    padding-left: 24px;
+  }
+
+  #banner .banner-text p {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  #first-section {
+    display: none;
+  }
+
+  #hidden-section {
+    /* hidden or second section*/
+    display: none;
+  }
+
+  .hidden-box {
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+  }
+
+  #banner .banner-text .shopBtn {
+    margin-top: 8px;
+  }
+
+  .customBtn {
+    border-radius: 43px;
+    padding: 10px 15px;
+    width: 120px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 120%;
+    align-items: center;
+  }
+
+  /* four boxes start */
+  #four-boxes-section .box {
+    width: 315px;
+    text-align: start;
+    padding: 20px;
+    margin: 8px;
+    height: 185px;
+    border-radius: 8px;
+  }
+
+  /* four boxes end */
+
+
+  /* third section start here */
+  #third-section {
+    position: static;
+    margin-top: 230%;
+    height: fit-content;
+  }
+  #third-section .row {
+    margin-top: 0px;
+    margin-left: 0; /*todo : remove this*/
+}
+  #third-section .productCard {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+  }
+
+  #third-section .productCard .img-fluid {
+    /* additional setting*/
+    max-width: 100%;
+    height: 190px;
+  }
+
+  #third-section .productCard .product-text .cnt {
+    margin: 0px 20px;
+    text-align: start;
+  }
+
+  #third-section .productCard .bag {
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    line-height: 12px;
+
+  }
+
+  #third-section .productCard .bag span img {
+    width: 15px;
+  }
+
+  #third-section .productCard .heart .heart-icon {
+    margin: 0 0 6px 180px;
+    padding: 8px;
+  }
+
+  #third-section .productCard .eye-icon {
+    padding: 8px;
+  }
+
+  #third-section .productCard .eye {
+    margin: 30px 32px 0 280px;
+  }
+
+  /* #third-section .productCard .overlay .newBag {
+    margin: 91px 0 0 287px;
+  } */
+  #third-section .productCard .overlay .newBag {
+    margin: 92px 0 0 257px;
+}
+  #third-section .group-text {
+    padding-top: 5px;
+  }
+
+  #third-section .productCard .product-text h3 {
+    font-size: 14px;
+    line-height: 100%;
+    text-align: start;
+  }
+
+  #third-section .group-text h3 {
+    font-size: 27px;
+  }
+
+  #third-section .productCard .product-text h2 {
+    font-size: 16px;
+    line-height: 120%;
+    margin: 2px 0 5px 0px;
+    text-align: start;
+  }
+
+  #third-section .group-text {
+    overflow: scroll;
+  }
+
+  /* third section end */
+
+
+  /* drink section start */
+  #drink {
+    padding: 5px 0;
+    height: fit-content;
+  }
+  .active {
+    display: block;
+    height: 45vh;
+    overflow: auto;
+    background-color: white;
+}
+
+
+  #drink .milk,
+  #drink .water,
+  #drink .breakfast {
+    width: 100%;
+    height: 255px;
+    border-radius: 8px;
+  }
+
+  #drink .water .wrapper {
+    margin: 0 0 0 200px;
+    padding: 20px 0;
+  }
+
+  #drink .water .wrapper h3,
+  #drink .milk .wrapper h3,
+  #drink .breakfast .wrapper h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    right: 32px;
+  }
+
+  #drink .drinkBtn {
+    margin-top: 15px;
+    padding: 0px 20px;
+    width: 130px;
+    height: 40px;
+    line-height: 100%;
+    font-size: 13px;
+  }
+
+  #drink .milk-breakfast:nth-of-type(1),
+  #drink .milk-breakfast:nth-of-type(3) {
+    margin: 0px 14px;
+  }
+
+  #drink .milk-breakfast {
+    padding-top: 20px;
+  }
+
+  #drink .milk {
+    padding-top: 30px;
+  }
+
+  #drink .carousel-control-prev-ico,
+  #drink .carousel-control-next-ico {
+    width: 2rem;
+    height: 2rem;
+    transform: translateY(0);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    color: var(--branding-success);
+  }
+
+  /* drink section end */
+  /* countdown start */
+  #specialDeals {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    padding: 15px 0;
+}
+#specialDeals .middleSpecial {
+  padding-left: 0px;
+}
+#specialDeals .middleSpecial p {
+  font-size: 14px;
+}
+#specialDeals .middleSpecial h2 {
+  font-size: 15px;
+  line-height: 0%;
+  margin: 16px 0 16px 0;
+}
+#specialDeals .middleSpecial .countDown .countDown-cnt {
+  padding: 0px 8px;
+  width: 60px;
+  height: 40px;
+}
+#specialDeals .middleSpecial .countDown span {
+  font-size: 18px;
+  margin: 8px 8px;
+}
+#specialDeals .middleSpecial .countDown h3 {
+  font-size: 20px;
+}
+#specialDeals .middleSpecial .countDown p {
+  font-size: 10px;
+  margin-top: 2px;
+}
+#specialDeals .middleSpecial button {
+  margin: auto;
+  margin-top: 12px;
+}
+#specialDeals .middleSpecial .customBtn{
+  display: flex;
+ height: 25%;
+}
+
+#feuturedProduct {
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 0;
+  height: 100%;
+  height: fit-content;
+  /* margin-bottom: 100px; */
+}
+
+
+#review {
+  /* height: fit-content; */
+  /* position: static; */
+  margin-bottom: 0;
+  overflow-x: scroll;
+}
+#review .overflow{
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  scrollbar-width: none;
+  justify-content: start;
+}
+#review .reviewBox span img {
+  text-align: center;
+  padding: 0px 0 0px 0;
+}
+
+#review .reviewBox {
+  width: 100%;
+  margin: 30px 10px;
+}
+#review .reviewBox .wrapper {
+  padding: 0 0px;
+}
+
+#review .reviewBox p {
+  font-size: 13px;
+}
+
+#review .reviewBox {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 180px;
+}
+
+.video-container {
+  position: relative;
+}
+
+#review h2 {
+  font-size: 2rem;
+}
+
+#review p {
+  font-size: 1rem;
+}
+
+
+#review .thumbnail-text h6 {
+  font-size: 1.2rem;
+}
+#review .thumbnail-text p {
+  font-size: 1rem;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  .reviewBox {
+      padding: 15px;
+  }
+
+  #review h2 {
+      font-size: 1.5rem;
+  }
+
+  .thumbnail-text h6 {
+      font-size: 1rem;
+  }
+}
