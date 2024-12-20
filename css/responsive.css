@@ -115,7 +115,15 @@ margin-top: 30px;
   #headerMiddle {
     padding: 4px 0;
   }
-
+/* banner  */
+#banner{
+  height: fit-content;
+}
+#banner .arrows{
+  width: 25px;
+  height: 25px;
+  top: 25%;
+}
   #banner .circle {
     width: 50px;
     height: 50px;
@@ -134,18 +142,12 @@ margin-top: 30px;
     max-height: 100%;
     margin-bottom: 0;
   }
-
-  #banner .banner-img .group2,
-  #banner .banner-img .group3,
-  #banner .banner-img .group4,
-  #banner .banner-img .group5 {
-    display: none;
+  #banner .banner-text h3 {
+    font-size: 30px;
   }
-
-  #banner .banner-text h1 {
-    font-size: 35px;
-  }
-
+  #banner .slider .slide .container .row, #banner .slider .slide .container, #banner .slider .slide {
+    height: 50%; 
+}
   #banner .banner-text {
     margin: auto;
     padding-left: 24px;
@@ -418,6 +420,10 @@ margin-top: 30px;
   margin-bottom: 0;
   overflow-x: scroll;
 }
+#review h2 {
+  font-size: 23px;
+  padding-top: 20px;
+}
 #review .overflow{
   overflow-x: scroll;
   /* overflow-y: hidden; */
@@ -468,20 +474,84 @@ margin-top: 30px;
 #review .thumbnail-text p {
   font-size: 1rem;
 }
+/* chat review */
+/* Default styles (for large screens) remain as they are */
 
+/* For tablets and smaller screens */
+@media (max-width: 576px) {
+  #feuturedProduct #third-section {
+    position: static;
+    margin-top: 0%;
+    height: fit-content;
+}
+  #feuturedProduct .productCard {
+    width: 100%;
+  
+  }
+  #review .reviewBox {
+   width: 100%;
+  }
+
+
+
+
+  /* foter start */
+  #footer .wrapper{
+    display: flex;
+   margin: 20px 0;
+   flex-wrap: wrap;
+   /* align-items: center; */
+  }
+  #footer ul li {
+    padding: 2px 0;
+    text-align: center;
+}
+#footer h3 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 150%;
+}
+#footer p, #footer ul li a {
+  font-size: 12px;
+  padding: 0px 0;
+}
+  /* foter end */
 }
 
-
+/* For mobile devices */
 @media (max-width: 768px) {
-  .reviewBox {
-      padding: 15px;
+  #feuturedProduct {
+    padding: 20px 0;
+  }
+  
+  #feuturedProduct .productCard {
+    width: 100%;
   }
 
-  #review h2 {
-      font-size: 1.5rem;
+  #review .reviewBox {
+    width: 100%;
+    margin: 10px auto;
   }
-
-  .thumbnail-text h6 {
-      font-size: 1rem;
+  
+  #videos .thumbnail-text p {
+    font-size: 24px;
+    width: auto;
   }
 }
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  #review h2 {
+    font-size: 28px;
+  }
+
+  #videos .thumbnail-text p {
+    font-size: 18px;
+    width: 90%;
+  }
+}
+
+}
+
+
+

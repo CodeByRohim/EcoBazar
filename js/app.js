@@ -48,8 +48,31 @@ $(document).ready(function () {
       $('.smSearchBtn .searchIcon').show(); // Show search icon
       $('.smMsearch').removeClass('searchSm2'); // Remove the custom class
   });
-});
 
+
+  // SLIDER
+ 
+    $('.slider').slick({
+      autoplay: true,
+  autoplaySpeed: 3000,
+  dots:true,
+  prevArrow:'#bannerLeftArrow',
+  nextArrow: '#bannerRightArrow',
+  dotsClass:'banner-dots',
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          
+          dots: false
+        }
+      },
+      
+    ]
+  });
+ 
+});
 
 // COUNTDOWN TIME
 // Set the target date

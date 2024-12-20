@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -75,16 +76,16 @@
                             <li class="d-inline-block"><a href="#">
                                     <span class="iconify-icon">
                                         <!-- <iconify-icon icon="clarity:heart-line" width="30" height="26"></iconify-icon> -->
-                                        <img width="30" height="26" src="./images/Heart(1).svg" alt="">
+                                        <img width="30" height="32" src="./images/circum--heart.svg" alt="">
                                     </span>
                                     </span></a></li>
                             <li class="d-inline-block">
                                 <a href="#">
-                                    <div class="d-flex">
+                                    <div class="d-flex cart">
                                         <div class="cartIcon">
-                                            <span class="iconify-icon">
-                                                <!-- <iconify-icon icon="ph:bag-thin" width="34" height="34"><iconify-icon> -->
+                                            <span class="iconify-icon">                                              
                                                 <img width="34" height="26" src="./images/Rectangle.svg" alt="">
+                                                <span class="cartCount">3</span>
                                                 <span>
                                         </div>
                                         <div class="text">
@@ -153,18 +154,7 @@
                             <li class=""><a class="" href="./contact.html">Contact Us</a></li>
 
                             <div class="d-flex align-items-center justify-content-evenly mt-3">
-                                <!-- <li class="nav-item" class="d-inline-bloc"><a href="#">
-                                        <span class="iconify-icon">
-                                            <img width="30" height="32" src="./images/Heart(1).svg" alt="">
-                                        </span>
-                                        </span></a></li>
-                                <li class="">
-                                    <a href="#">
-                                        <span class="iconify-icon">
-                                            <img width="34" height="26" src="./images/Rectangle.svg" alt="">
-                                            <span>
-                                    </a>
-                                </li> -->
+                                
                                 <li><a href="tel:+219-555-0114"><img src="./images/Group.svg" alt="">(219) 555-0114</a></li>
                             </div>
                         </ul>
@@ -366,45 +356,104 @@
             </div>
         </section>
         <!-- HEADER BOTTOM ENDS -->
+           <!-- SM BOTTOM NAVBAR START HERE -->
+           <section id="smBottomNav" class="d-lg-none">
+            <div class="container">
+            
+                    <div class="d-flex align-items-center justify-content-evenly">
+                        <a href="#" class="iconify-icon actives
+                        "><img class="img-fluid" width="25" height="22" src="./images/mdi-light--home.svg" alt="">
+                        </a>
+                        
+                        <a href="#" class="iconify-icon actives
+                        "><img class="img-fluid" width="25" height="22" src="./images/mdi-light--heart.svg" alt="">
+                        </a>
+                        
+                        <a href="#" class="iconify-icon actives"><img width="29" height="22" src="./images/lets-icons--bag-alt-light.svg" alt="">
+                        </a>
+                        <a href="#" class="iconify-icon actives
+                        "><img class="img-fluid" width="25" height="25" src="./images/material-symbols-light--account-circle-outline.svg" alt="">
+                        </a>
+                    </div>  
+            </div>
+        </section>
+            <!-- SM BOTTOM NAVBAR END HERE -->
     </header>
     <!-- HEADER ENDS HERE -->
-
-    <!-- BANNER STARTS HERE -->
+<main>
+   
     <section id="banner">
-        <div class="container">
-            <div class="row">
-                <div class="banner-img col-lg-7">
-                    <div class="group ">
-                        <div class="img-group">
-                            <img class="main-img img-fluid" src="./images/Image.svg" alt="">
 
-                            <img class="vector1 img-fluid d-none d-lg-block" src="./images/Vector(1).svg" alt="">
-                            <img class="group2 img-fluid d-none d-lg-block" src="./images/Group 2.svg" alt="">
-
-                            <img class="group4 img-fluid d-none d-lg-block" src="./images/Group 4.svg" alt="">
-
+        <div class="slider">
+            <div class="slide">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">    
+                            <img class=" img-fluid" src="./images/Image-removebg-preview.png" alt=""> 
+                            <div class="circle">
+                                <p>70% <span>OFF</span></p>
+                            </div>
                         </div>
-                        <div class="circle">
-                            <p>70% <span>OFF</span></p>
+                        <div class="col-lg-6 banner-text">
+                            <span class="shopery">Welcome to shopery</span>
+                            <h3>Fresh & Healthy
+                                Organic Food</h3>
+                            <p>Free shipping on all your order. we deliver, you enjoy</p>
+                            <button class="customBtn shopBtn d-flex gap-2">Shop Now <span class="rightArrow"><i
+                                class="bi bi-arrow-right-short"></i></span></button>
                         </div>
                     </div>
-                    <div class="group3 img-fluid"></div>
-
-                    <div class="group5 img-fluid"></div>
-                </div>
-
-                <div class="banner-text col-lg-5">
-                    <span class="shopery">Welcome to shopery</span>
-                    <h1>Fresh & Healthy
-                        <span class="d-block text-start">Organic Food</span>
-                    </h1>
-                    <p>Free shipping on all your order. we deliver, you enjoy</p>
-                    <button class="customBtn shopBtn d-flex gap-2">Shop Now <span class="rightArrow"><i
-                                class="bi bi-arrow-right-short"></i></span></button>
                 </div>
             </div>
-        </div>
-    </section>
+
+            <div class="slide">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">    
+                            <img class="img-fluid" src="./images/Image-removebg-preview.png" alt=""> 
+                            <div class="circle">
+                                <p>70% <span>OFF</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 banner-text">
+                            <span class="shopery">Welcome to shopery</span>
+                            <h3>Fresh & Healthy
+                                Organic Food</h3>
+                            <p>Free shipping on all your order. we deliver, you enjoy</p>
+                            <button class="customBtn shopBtn d-flex gap-2">Shop Now <span class="rightArrow"><i
+                                class="bi bi-arrow-right-short"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">    
+                            <img class=" img-fluid" src="./images/Image-removebg-preview.png" alt=""> 
+                            <div class="circle">
+                                <p>70% <span>OFF</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 banner-text">
+                            <span class="shopery">Welcome to shopery</span>
+                            <h3>Fresh & Healthy
+                                Organic Food</h3>
+                            <p>Free shipping on all your order. we deliver, you enjoy</p>
+                            <button class="customBtn shopBtn d-flex gap-2">Shop Now <span class="rightArrow"><i
+                                class="bi bi-arrow-right-short"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <button class="iconify-icon arrows leftArrows " id="bannerLeftArrow"><iconify-icon
+                icon="pepicons-pencil:arrow-left" width="20" height="20"></iconify-icon></button>
+        <button class="iconify-icon arrows rightArrows " id="bannerRightArrow"><iconify-icon
+                icon="pepicons-pencil:arrow-right" width="20" height="20"></iconify-icon></button>
+     </section>
     <!-- BANNER ENDS HERE -->
 
     <!-- <div class="div"> -->
@@ -479,9 +528,9 @@
 
                 <!-- product 1 start -->
                 <div class="productCard col-lg-3">
-                    <!-- <span class="product-img"> -->
+                   
                     <img class="img-fluid" src="./images/product img/Product Image.svg" alt="">
-                    <!-- </span> -->
+                    
                     <div class="product-text d-flex align-items-center justify-content-between">
                         <div class="cnt">
                             <h3>Green Apple</h3>
@@ -1253,14 +1302,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="wrapper">
-                            <div class="col-3">
+                            <div class="col-lg-3">
                                 <h3>About Shopery</h3>
                                 <p>
                                     Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
                                 </p>
                                 <h5>(219) 555-0114<span>or</span>Proxy@gmail.com</h5>
                             </div>
-                            <div class="col-2 mx-4">
+                            <div class="col-lg-2 mx-4">
                                 <h3>My Account</h3>
                                <ul>
                                 <li><a href="#">My Account</a></li>
@@ -1270,7 +1319,7 @@
                                 <li><a href="#">Settings</a></li>
                                </ul>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2">
                                 <h3>Helps</h3>
                                 <ul>
                                     <li><a href="#">Contact</a></li>
@@ -1280,7 +1329,7 @@
                                     <!-- <li><a href="#"></a></li>        -->
                                 </ul>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-12">
                                 <h3>Proxy</h3>
                                 <ul>
                                     <li><a href="#">About</a></li>
@@ -1290,7 +1339,7 @@
                                     <li><a href="#">Track Order   </a></li>
                                 </ul>
                             </div>
-                            <div class="col-3 mx-">
+                            <div class="col-lg-3 mx-">
                                 <h3 class="">Instagram</h3>
                                 <ul class="d-flex flex-wrap">
                                     <li><a href="#"><img class="img-fluid" src="./drink-img/ins4.svg" alt=""></a></li>
@@ -1308,13 +1357,13 @@
                          <hr class="footerHr">
                     
                         <div class="social-payment">
-                            <div class="col-4 social">
+                            <div class="col-lg-4 social">
                                 <a href="#"><img class="img-fluid" src="./drink-img/facebook 1.svg" alt=""></a>
                                 <a href="#"><img class="img-fluid" src="./drink-img/twitter 1.svg" alt=""></a>
                                 <a href="#"><img class="img-fluid" src="./drink-img/pinterest 1.svg" alt=""></a>
                                 <a href="#"><img class="img-fluid" src="./drink-img/instagram 1.svg" alt=""></a>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4">
                                 <p>Shopery eCommerce © 2021. All Rights Reserved</p>
                             </div>
                             <div class="col-4 payment text-end">
@@ -1331,45 +1380,11 @@
             </footer>
           </section>
           <!-- FOOTER SECTION END -->
-           <!-- SM BOTTOM NAVBAR START HERE -->
-            <section id="smBottomNav d-block d-lg-none">
-                <nav class="d-lg-none">
-                    <ul class="d-flex align-items-center justify-content-evenly ">
-                        <li class="nav-item" class="d-inline-bloc">
-                            <a class="nav-link acti">
-                        <span class="iconify-icon">
-                            <img width="30" height="32" src="./images/ion--home-outline.svg" alt="">
-                        </span>
-                        </span></a>
-                    </li>
-                        <li class="nav-item" class="d-inline-bloc">
-                            <a class="nav-link acti">
-                        <span class="iconify-icon">
-                            <img width="30" height="32" src="./images/Heart(1).svg" alt="">
-                        </span>
-                        </span></a>
-                    </li>
-                <li class="">
-                    <a href="#">
-                        <span class="iconify-icon">
-                            <img width="34" height="26" src="./images/Rectangle.svg" alt="">
-                            <span>
-                    </a>
-                </li>
-                <li class="nav-item" class="d-inline-bloc">
-                    <a class="nav-link acti">
-                <span class="iconify-icon">
-                    <img width="30" height="32" src="./images/ic--outline-account-circle.svg" alt="">
-                </span>
-                </span></a>
-            </li>
-                    </ul>
-                </nav>
-            </section>
-            <!-- SM BOTTOM NAVBAR END HERE -->
+         </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
 
