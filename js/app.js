@@ -53,7 +53,7 @@ $(document).ready(function () {
   // SLIDER
  
     $('.slider').slick({
-      autoplay: true,
+  autoplay: true,
   autoplaySpeed: 3000,
   dots:true,
   prevArrow:'#bannerLeftArrow',
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
 // COUNTDOWN TIME
 // Set the target date
-const targetDate = new Date("2024-12-18T23:59:59").getTime();
+const targetDate = new Date("2024-12-28T23:59:59").getTime();
 
 // Update the countdown every second
 const countdown = setInterval(() => {

@@ -779,8 +779,8 @@ margin: 20px 0 0 20px;
   height: 255px;
 }
 #drink .drinkBtn{
-  margin-top: 20px;
-  border-radius: 43px;
+margin-top: 20px;
+border-radius: 43px;
 padding: 14px 32px;
 width: 162px;
 height: 45px;
@@ -827,7 +827,6 @@ color: var(--gren-gray-scale-900);
 }
 #drink .water p,
 #drink .breakfast p{
-  font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 line-height: 100%;
@@ -1085,7 +1084,8 @@ margin-bottom: 7px;
 /* FEUTURED PRODUCTS SECTION ENDS HERE */
 /* REVIEW SECTION STARTS HERE */
 #review{
-  background: var(--gren-gray-scale-50);
+background: var(--gren-gray-scale-50);
+max-height: 1042px;
 height: 1042px;
 position: relative;
 margin-bottom: 100px;

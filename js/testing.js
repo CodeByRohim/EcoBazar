@@ -21,7 +21,8 @@ prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slideCount) % slideCount; // Loop back to the last slide
     updateSlider();
 });*/
-// material sider
+// material slider
+/*
 const slides = document.querySelector('.slides');
 const slideCount = document.querySelectorAll('.slide').length;
 const prevButton = document.getElementById('prev');
@@ -44,4 +45,4 @@ nextButton.addEventListener('click', () => {
 prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slideCount) % slideCount; // Loop back to the last slide
     updateSlider();
-});
+});*/
