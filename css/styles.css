@@ -1219,10 +1219,10 @@ margin: 12px 0 32px 0;
 /* VIDEO SECTION ENDS HERE */
 /* LATEST NEWS SECTION STARTS HERE */
 #latestNews{
-margin-top: 470PX;
-position: relative;
-margin-bottom: 260px;
-
+/* margin-top: 470PX; */
+/* position: relative; */
+/* margin-bottom: 260px; */
+transform: translateY(50%);
 }
 #latestNews .customRow{
   display: flex;
@@ -1244,7 +1244,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: translateY(-10px);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
-
 
 #latestNews h2{
   font-weight: 600;
@@ -1300,8 +1299,8 @@ max-width: 376px;
 }
 
 #latestNews .latestNewsBox span a{
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 font-weight: 600;
 font-size: 16px;
 line-height: 120%;
@@ -1314,20 +1313,14 @@ color: var(--branding-success);
 /* LATEST NEWS SECTION ENDS HERE */
 /* NEWSLETTER SECTION STARTS HERE */
 #newsletter{
-  position: absolute;
   height: 518PX;
   width: 100%;
-  z-index: -10;
-  /* margin-top: 0%; */
-  transform: translateY(-50%);
   background: var(--gren-gray-scale-50);
-  /* margin-bottom: 100px; */
-  
 }
 #newsletter .span{
-  border: 1px solid var(--gren-gray-scale-200);
-width: 1440px;
-/* width: 100%; */
+border: 1px solid var(--gren-gray-scale-200);
+width: 100%;
+ width: 100%; 
 margin: auto;
 height: 0px;
 opacity: 0.7;
@@ -1454,6 +1447,9 @@ color: var(--gray-scale-white);
 }
 #footer .payment a{
 padding: 8px 0 8px 0;
+}
+#footer .wrapper .myAccount{
+margin-left: 20px;
 }
 /* FOOTER SECTION ENDS HERE */
 #smBottomNav{
